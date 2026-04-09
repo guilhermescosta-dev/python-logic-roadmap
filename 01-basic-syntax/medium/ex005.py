@@ -5,3 +5,11 @@ Crie um programa que exiba uma pequena apresentação em três linhas diferentes
 """
 
 # Seu código começa aqui
+
+nome = input("Digite seu nome: ")
+
+print(f"""
+Programa do Exercício 005
+{nome},
+Seja bem vindo
+""")
